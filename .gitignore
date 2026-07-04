@@ -1,0 +1,36 @@
+# === Dataset (MANDATORIO: Supera el límite de 100MB de GitHub) ===
+2107_electrical_data.csv
+
+# === Python Caches and Compilation ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# === Jupyter and IDE Configurations ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# === macOS system files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# === Agent Sandbox & Temporary Files ===
+.dist/
+.agents/
+.gemini/
+scratch/
+check_inv_cols.py
+check_stats.py
+check_units.py
+inspect_data.py
